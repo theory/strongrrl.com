@@ -1,0 +1,154 @@
+html, body {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-size: 100%;
+/*    font-size: .90em; */
+    line-height: 1.2em;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    background: #000;
+}
+
+img, abbr {
+    border: 0;
+}
+a:active, a:visited, a:link {
+    color: #808080;
+    text-decoration: none;
+}
+a:active, a:hover {
+    color: #808000;
+}
+
+#banner {
+    padding: 10px;
+    background: #fff;
+    height: 80px;
+}
+
+#nav {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  font-size: 75%;
+  font-weight: bold;
+  background: #808000;
+  text-transform: lowercase;
+}
+
+#nav ul {
+  padding: 0;
+  list-style: none;
+  line-height: 25px;
+  margin: 0;
+  float: right;
+}
+
+#nav li {
+  float: left;
+  padding: 0;
+  margin: 0 3em 0 0;
+}
+#nav a:active, #nav a:visited, #nav a:link {
+    color: #fff;
+    text-decoration: none;
+}
+#nav a:active, #nav a:hover {
+    color: #fff;
+}
+
+#main {
+    margin: 26px 0 0 0;
+}
+
+#content {
+    margin: 70px 2em 2em 200px;
+    padding: 0;
+    color: #fff;
+    min-width: 300px;
+    max-width: 500px;
+    _width: 500px; /* IE only */
+}
+
+.piece {
+    margin: 10px 0 0 240px;
+    width: 600px;
+}
+
+.piece .hproduct p {
+    display: none;
+    visibility: hidden;
+}
+
+.piece .photo {
+    cursor: pointer;
+}
+
+.about {
+    margin: 10px 0 0 240px;
+    width: 500px;
+}
+.about p {
+    font-size: 90%;
+    line-height: 1.6em;
+    margin: 0 0 1em 0;
+    padding: 0;
+}
+
+.clicker {
+    color: #fff;
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+.clicker .prev, .clicker .next {
+    color: #808000;
+    vertical-align: bottom;
+}
+.clicker .track {
+    vertical-align: bottom;
+    font-size: 90%;
+}
+
+#portfolio {
+    padding: 50px 0 0 10px;
+}
+
+#portfolio h3 {
+    font-size: 90%;
+    padding: 0;
+    margin: 0 0 10px 0;
+    vertical-align: bottom;
+}
+
+#menu {
+    font-size: 0.85em;
+    width: 200px;
+    margin: 0;
+    float: left;
+    color: #fff;
+    padding: 0 10px 0 0;
+}
+
+#menu dd {
+    font-size: 85%;
+    width: 170px; /* Required to get slide animation to properly calculate the height. */
+    margin: 0;
+    padding: 0 0 0 30px;
+}
+
+#menu dt.on {
+    color: #808000;
+    font-weight: bold;
+}
+
+#menu dt .ptr {
+    font-size: 130%;
+}
+
+#menu dt:hover { color: #808000; cursor: hand; cursor: pointer; }
+#menu dt.on:hover { color: #808000; cursor: default; }
+
+.vcard .fn { font-size: 110%; font-weight: bold; }
+.mf { margin-top: 10px; }
